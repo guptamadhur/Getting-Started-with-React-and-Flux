@@ -1,14 +1,13 @@
 import React from "react";
 
-class AboutPage extends React.Component {
-  render() {
-    return (
-      <>
-        <h2>About</h2>
-        <p>This app uses React.</p>
-      </>
-    );
-  }
+const AboutPage = () => {
+  return (
+    <>
+      <h2>About</h2>
+      <p>This app uses React.</p>
+      <p>By- Madhur Gupta</p>
+    </>
+  );
 }
 
 export default AboutPage;
